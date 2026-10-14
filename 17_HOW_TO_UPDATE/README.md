@@ -1,0 +1,36 @@
+# 17 How To Update - PEDALBOARD
+
+**Company:** Anticloud FZ LLE
+**Model:** PAX L5 Narrow L2 General 27B
+**Project:** PEDALBOARD | Category: AUDIO_CONSUMER
+**Upstream:** See BENCH.json
+**Run stamp:** 2026-10-07T09:12:24.411922Z
+
+## Overview
+
+This document covers 17 how to update for the Anticloud integration of PEDALBOARD.
+
+## Project Context
+
+- **Category:** AUDIO_CONSUMER
+- **Upstream:** See BENCH.json
+- **License:** N/A
+- **BENCH.json:** 16/16 PASS (SHA256: `c03795628f94f5bb7e8e9e1b5af594787bc53e75cd47dc64f6cba292f9ed02d0`)
+
+## Key Metrics
+
+| Metric | Value | Source |
+|--------|-------|--------|
+| Files total | N/A | BENCH.json 01_loc_files |
+| Code lines | N/A | BENCH.json 01_loc_files |
+| License | N/A | BENCH.json 02_licence |
+| Dependencies | N/A | BENCH.json 03_dependency_scan |
+| SBOM components | N/A | BENCH.json 04_sbom_cyclonedx |
+| Git head | N/A | BENCH.json 05_git_health |
+
+## Contact
+
+Lois-Kleinner Alpasan — CEO & CTO, Anticloud FZ LLE
+lois@0-1.gg | 0-1.gg
+
+License: N/A + Enterprise commercial dual (Anticommons 0.1.0).

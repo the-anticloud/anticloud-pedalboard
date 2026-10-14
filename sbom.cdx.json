@@ -1,0 +1,116 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:8000f0b6-4ed1-5830-a0f9-f46ae97203a6",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T07:43:04Z",
+    "component": {
+      "type": "application",
+      "name": "PEDALBOARD",
+      "version": "f5e45049dfa8",
+      "bom-ref": "pkg:generic/anticloud/PEDALBOARD@f5e45049dfa8",
+      "purl": "pkg:generic/anticloud/PEDALBOARD@f5e45049dfa8",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "f5e45049dfa8b33e8ee79a900b2b796a9dcae45f"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": ""
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.22.0,<3",
+      "purl": "pkg:pypi/numpy@1.22.0,<3",
+      "bom-ref": "pypi/numpy@>=1.22.0,<3"
+    },
+    {
+      "type": "library",
+      "name": "numpy-minmax",
+      "version": ">=0.3.0,<1",
+      "purl": "pkg:pypi/numpy-minmax@0.3.0,<1",
+      "bom-ref": "pypi/numpy-minmax@>=0.3.0,<1"
+    },
+    {
+      "type": "library",
+      "name": "numpy-rms",
+      "version": ">=0.4.2,<1",
+      "purl": "pkg:pypi/numpy-rms@0.4.2,<1",
+      "bom-ref": "pypi/numpy-rms@>=0.4.2,<1"
+    },
+    {
+      "type": "library",
+      "name": "librosa",
+      "version": ">=0.8.0,!=0.10.0,<0.12.0",
+      "purl": "pkg:pypi/librosa@0.8.0,!=0.10.0,<0.12.0",
+      "bom-ref": "pypi/librosa@>=0.8.0,!=0.10.0,<0.12.0"
+    },
+    {
+      "type": "library",
+      "name": "python-stretch",
+      "version": ">=0.3.1,<1",
+      "purl": "pkg:pypi/python-stretch@0.3.1,<1",
+      "bom-ref": "pypi/python-stretch@>=0.3.1,<1"
+    },
+    {
+      "type": "library",
+      "name": "scipy",
+      "version": ">=1.4,<2",
+      "purl": "pkg:pypi/scipy@1.4,<2",
+      "bom-ref": "pypi/scipy@>=1.4,<2"
+    },
+    {
+      "type": "library",
+      "name": "soxr",
+      "version": ">=0.3.2,<1.0.0",
+      "purl": "pkg:pypi/soxr@0.3.2,<1.0.0",
+      "bom-ref": "pypi/soxr@>=0.3.2,<1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "fast-mp3-augment",
+      "version": "<1",
+      "purl": "pkg:pypi/fast-mp3-augment@1",
+      "bom-ref": "pypi/fast-mp3-augment@<1"
+    },
+    {
+      "type": "library",
+      "name": "loudness",
+      "version": "<1",
+      "purl": "pkg:pypi/loudness@1",
+      "bom-ref": "pypi/loudness@<1"
+    },
+    {
+      "type": "library",
+      "name": "numpy-audio-limiter",
+      "version": "<1",
+      "purl": "pkg:pypi/numpy-audio-limiter@1",
+      "bom-ref": "pypi/numpy-audio-limiter@<1"
+    },
+    {
+      "type": "library",
+      "name": "pyroomacoustics",
+      "version": ">=0.7.4",
+      "purl": "pkg:pypi/pyroomacoustics@0.7.4",
+      "bom-ref": "pypi/pyroomacoustics@>=0.7.4"
+    }
+  ]
+}
