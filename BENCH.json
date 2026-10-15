@@ -2,13 +2,11 @@
  "schema": "anticloud.tier-bench/1",
  "project": "PEDALBOARD",
  "source": {
-  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\AUDIO_CONSUMER\\PEDALBOARD\\UPSTREAM_CLONE",
   "git": {
-   "head": "f5e45049dfa8b33e8ee79a900b2b796a9dcae45f",
-   "url": "https://github.com/iver56/audiomentations",
-   "branch": "main",
-   "committed_at": "",
-   "sha_verified_from": "GitHub API substitute swap 2026-10-12 | unified 2026-10-14 (API-exists + content/clone anchor)"
+   "url": "https://github.com/spotify/pedalboard",
+   "head": "05e8f0b3c4851e77485d7e842dc0355b44106471",
+   "sha_verified_from": "revendor 2026-10-15: GitHub API commit lookup",
+   "previous_substitute": "https://github.com/iver56/audiomentations"
   }
  },
  "metrics": {
